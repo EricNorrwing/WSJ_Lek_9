@@ -9,7 +9,6 @@ public class WeatherWebClientConfig {
 
     @Bean
     public WebClient.Builder weatherWebClientBuilder() {
-
         return WebClient.builder();
     }
 
